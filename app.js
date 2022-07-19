@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 const connectDB = require("./db/connect");
-const productsRouter = require("./routes/product");
+const productsRouter = require("./routes/products");
 
 const notFound = require("./middleware/not-found");
 const errorHandler = require("./middleware/error-handler");
